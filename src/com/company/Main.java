@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Test array size: " +testArray.size());
         System.out.println("Does the test array contain 2? \n" +testArray.contains(2));
         System.out.println("Now let's delete the first element");
-        System.out.println("Here's hat the first element contained: \n" +testArray.remove(0));
+        System.out.println("Here's what the first element contained: \n" +testArray.remove(0));
         System.out.println("Does the test array contain 2? \n" + testArray.contains(2));
         System.out.println("The first element is " +testArray.get(0));
         System.out.println("Clearing the array...");
