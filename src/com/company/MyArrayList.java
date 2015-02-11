@@ -32,11 +32,13 @@ public class MyArrayList {
         return elements[i];
     }
 
-    public void remove(int i) {
+    public Object remove(int i) {
+        Object temp = elements[i];
         for (; i < (internalSize - 1); i++)
             elements[i] = elements [i+1];
         internalSize--;
         elements[internalSize] = null;
+        return temp;
     }
 
     public void clear() {

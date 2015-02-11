@@ -11,12 +11,12 @@ public class Main {
         System.out.println("Test array size: " +testArray.size());
         System.out.println("Does the test array contain 2? \n" +testArray.contains(2));
         System.out.println("Now let's delete the first element");
-        testArray.remove(0);
-        System.out.println("Does the test array contain 2? \n" +testArray.contains(2));
+        System.out.println("Here's hat the first element contained: \n" +testArray.remove(0));
+        System.out.println("Does the test array contain 2? \n" + testArray.contains(2));
         System.out.println("The first element is " +testArray.get(0));
         System.out.println("Clearing the array...");
         testArray.clear();
-        System.out.println("Test array size: " +testArray.size());
+        System.out.println("Test array size: " + testArray.size());
         System.out.println("Increasing the number of elements at the array");
         for (int i = 0; i < 30; i++)
             testArray.add(i);
